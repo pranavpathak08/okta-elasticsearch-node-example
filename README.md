@@ -2,7 +2,7 @@
 
 In this tutorial, you'll learn to build a node application using Elasticsearch and secure it using Okta.
 
-Please read [The Ultimate Guide to Using Elasticsearch in Node.js]() to walk through the tutorial.
+Please read [The Ultimate Guide to Using Elasticsearch in Node.js](https://developer.okta.com/blog/2022/04/27/ultimate-guide-elasticsearch-nodejs) to walk through the tutorial.
 
 **Prerequisites**
 
@@ -74,7 +74,7 @@ npm run dev # Start Vite development server
 
 ## Help
 
-Please post any questions as comments on the [blog post](), or visit our [Okta Developer Forums](https://devforum.okta.com/).
+Please post any questions as comments on the [blog post](https://developer.okta.com/blog/2022/04/27/ultimate-guide-elasticsearch-nodejs), or visit our [Okta Developer Forums](https://devforum.okta.com/).
 
 ## License
 
