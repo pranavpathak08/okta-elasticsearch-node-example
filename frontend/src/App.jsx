@@ -93,14 +93,12 @@ const EditMenu = (props) => {
         variant="contained"
         sx={{ my: 1, mr: 1 }}
         onClick={props.addPost}
-        disabled={!props.username}
       >
         Add
       </Button>
       <Button
         startIcon={<Delete />}
         variant="contained"
-        disabled={!props.username || !props.selection.length}
         sx={{ my: 1, mr: 1 }}
         onClick={() => props.removePosts(props.selection)}
       >
@@ -140,7 +138,6 @@ const App = () => {
   };
   const search = async () => {
     const response = await api.search(query);
-
     setSelection(
       response.hits.hits.map((hit) => {
         return hit._id;
